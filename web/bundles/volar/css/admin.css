@@ -1,0 +1,22 @@
+body { width: 100%;  background-color: #494949; color: white; }
+
+#backToList { cursor: pointer; width: 200px; color: white; height: 45px; }
+
+.color0 { background-color: #FFFF59; }
+.color1 { background-color: white; }
+.productActions { background-color: #FFFF59; }
+.image { padding-top: 3px; }
+.formLabels { float: left; width: 100px; }
+.formFields { float: right; width: 100px; }
+
+#products { float:none;margin:0 auto;display:table; border-collapse:collapse; width:75%; color: black; }
+#products th, td { border: 1px solid black; margin: 0; padding: 0; }
+#products td { vertical-align: middle; }
+
+#formRows table { border-collapse:collapse; color: black; }
+#formRows table, th, td { border: 0px; margin: 0; padding-right: 5px; }
+#formRows .label { border: 1px solid black; }
+#formRows .label { background-color: #FFFF59; }
+//#formRows .label { background-color: #9DD52A; }
+
+#productForm { float:none;margin:0 auto;display:table; }
