@@ -1,0 +1,42 @@
+{% extends 'FrontendBundle:Frontend:layout.html.twig' %}
+
+{% block content %}
+<script type="text/javascript" src="{{ asset('bundles/volar/js/jquery.js') }}" ></script>
+<script type="text/javascript" >
+    function addItem(url){
+        $.post(url,"",function(data){
+                //Get the response from the server
+                alert("{% trans %}Products.message.productAdded{% endtrans %}");
+                },"json");
+    }
+</script>
+<div id="detail" width="100%">
+    <div id="product" align="center" >
+    <table>
+        <tr><td>
+        <div class="image">
+            <img src="{{ attribute(images, product.getId)| imagine_filter('detail') }}"/>
+        </div>
+        <div class="shortDesctiption">
+            {% set message = "product."~product.getId~".shortDescription" %}
+            <p>{{ message | trans({},"products") | raw }}</p>
+        </div>
+        </td><td  valign="top" >
+        <div class="longDesctiption" >
+            {% set message = "product."~product.getId~".longDescription" %}
+            <p>{{ message | trans({},"products") | raw }}</p>
+        </div>   
+        <div class="price">
+            <p>{% trans %}Products.price{% endtrans %}: {{ product.price }} &euro; </p>
+        </div>
+        <div class="button" onClick="addItem">
+            <input type="button"  value="{% trans %}Products.addToCart{% endtrans %}" >
+        </div>
+        <div class="button" onClick="window.location='{{ path('_listProducts') }}';" >
+            <input type="button" value="{% trans %}Products.back{% endtrans %}" >
+        </div>
+        </td></tr> 
+    </table>
+    </div>      
+</div>
+{% endblock %}

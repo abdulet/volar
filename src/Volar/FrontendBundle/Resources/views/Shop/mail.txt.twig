@@ -1,0 +1,13 @@
+{% set table="" %}
+{% if present == 0 %}
+    {% for product in products%}
+        {% set table=table~product.name~", "~headerQuantity~":  "~product.quantity~", "~headerPrice~": "~product.price~"\n" %}
+    {% endfor %}
+    {% set table=table~"Total: "~total~"\n" %}
+    {{ "User.mail.body" | trans({"%NAME%": name, "%TABLE%": table, "%REFERENCE%": reference, "%FECHA%": fecha},"messages") }}
+{% else %}
+    {% for product in products%}
+        {% set table=table~product.name~", "~headerQuantity~":  "~product.quantity~"\n" %}
+    {% endfor %}
+    {{ "User.mail.body" | trans({"%NAME%": name, "%BUYER%": buyer, "%TABLE%": table, "%REFERENCE%": reference, "%FECHA%": fecha},"messages") }}
+{% endif %}

@@ -1,0 +1,32 @@
+{% if present == 0 %}
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        {% set table="<table align=center width=90% style='border:1px solid black;border-collapse:collapse;'><thead><tr align=center><td style='border:1px solid black;'>"~headerProduct~"</td><td style='border:1px solid black;'>"~headerQuantity~"</td><td style='border:1px solid black;'>"~headerPrice~"</td></tr></thead><tbody>" %}
+        {% for product in products%}
+            {% set table=table~"<tr align=center><td style='border:1px solid black;'>"~product.name~"</td><td style='border:1px solid black;'>"~product.quantity~"</td><td style='border:1px solid black;'>"~product.price~"</td></tr>" %}
+        {% endfor %}
+        {% set table=table~"<tr align=center><td></td><td style='border:1px solid black;'>Total:</td><td style='border:1px solid black;'>"~total~"</td></tr>" %}
+        {% set table=table~"</tbody></table>" %}
+		<img src="{{ app.request.host }}/{{ asset('bundles/volar/img/logo.gif') }}" alt="Logo Volarenparapente" /><br/><br/>
+        {{ 'User.mail.htmlBody' | trans({"%NAME%": name, "%TABLE%": table, "%REFERENCE%": reference, "%FECHA%": fecha},"messages") | raw }}
+    </body>
+</html>
+{% else %}
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>    
+    <body>
+        {% set table="<table align=center width=90% style='border:1px solid black;border-collapse:collapse;'><thead><tr align=center><td style='border:1px solid black;'>"~headerProduct~"</td><td style='border:1px solid black;'>"~headerQuantity~"</td></tr></thead><tbody>" %}
+        {% for product in products%}
+            {% set table=table~"<tr align=center><td style='border:1px solid black;'>"~product.name~"</td><td>"~product.quantity~"</td></tr>" %}
+        {% endfor %}
+        {% set table=table~"</tbody></table>" %}
+		<img src="http://{{ app.request.host }}/{{ asset('bundles/volar/img/logo.gif') }}" alt="Logo Volarenparapente" /><br/><br/>
+        {{ 'Bono.mail.htmlBody' | trans({"%NAME%": name, "%BUYER%": buyer, "%TABLE%": table, "%REFERENCE%": reference, "%FECHA%": fecha},"messages") | raw }}
+    </body>
+</html>
+{% endif %}

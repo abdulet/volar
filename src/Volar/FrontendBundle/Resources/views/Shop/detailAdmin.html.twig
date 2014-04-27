@@ -1,0 +1,27 @@
+{% extends 'FrontendBundle:Shop:adminLayout.html.twig' %}
+
+{% block body %}
+<div id="detail">
+    <div id="product">
+        <div class="productActions">
+            <a href="{{ path('_delProduct', {'id': product.getId, '_locale': app.request.locale}) }}" alt="Eliminar"><img src="{{ 'bundles/volar/img/delete.png' | imagine_filter('icon') }}"/></a>
+            <a href="{{ path('_editProduct', {'id': product.getId, '_locale': app.request.locale}) }}" alt="Editar"><img src="{{ 'bundles/volar/img/edit.png' | imagine_filter('icon') }}"/></a>
+            <a href="{{ path('_createProduct') }}" alt="Editar"><img src="{{ 'bundles/volar/img/add.png' | imagine_filter('icon') }}"/></a>
+        </div>
+        <div class="image">
+            <img src="{{ attribute(images, product.getId)| imagine_filter('detail') }}"/>
+        </div>
+        <div class="shortDesctiption">
+            {% set message = "product."~product.getId~".shortDescription" %}
+            <p>{{ message | trans({},"products") | raw }}</p>
+        </div>
+        <div class="longDesctiption">
+            {% set message = "product."~product.getId~".longDescription" %}
+            <p>{{ message | trans({},"products") | raw }}</p>
+        </div>    
+        <div class="button">
+            <input type="button" onClick="document.location='{{ path('_adminProducts') }}';" value="Administrar productos" />
+        </div>
+    </div>      
+</div>
+{% endblock %}

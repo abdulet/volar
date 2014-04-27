@@ -1,0 +1,10 @@
+{% extends 'FrontendBundle:Frontend:layout.html.twig' %}
+
+{% block content %}
+			<div id="dvFlash">
+				<script type="text/javascript">
+				   var so = new FlashObject("{{ asset('swf/slide.swf') }}", "flash", "898", "449", "8");
+				   so.write("dvFlash");
+				</script>	
+			</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'FrontendBundle:Frontend:layout.html.twig' %}
+
+{% block content %}
+		<div id="eltiempo">
+				<div class="texto">
+					<p>{% trans %}Weather.text1{% endtrans %}<br><br> 
+					{% trans %}Weather.text2{% endtrans %}<a href="http://www.meteocat.com/mediamb_xemec/servmet/index.html" onclick="window.open(this.href,'_blank');return false;"><strong><em>{% trans %}Weather.text3{% endtrans %}</em></strong></a></p>
+				</div>
+					<div class="mapa"><img src="http://www.meteocat.com/mediamb_xemec/servmet/previsio/graf/avui.jpg" alt="Meteocat" height="200" width="200"><br>{% trans %}Weather.text4{% endtrans %}<br><a href="http://www.meteocat.com/mediamb_xemec/servmet/previsio/graf/avui.jpg" onclick="window.open(this.href,'_blank');return false;">{% trans %}Weather.click{% endtrans %}</a></div>
+					<div class="mapa"><img src="http://www.meteocat.com/mediamb_xemec/servmet/previsio/graf/dema.jpg" alt="Meteocat" height="200" width="200"><br>{% trans %}Weather.text5{% endtrans %}<br><a href="http://www.meteocat.com/mediamb_xemec/servmet/previsio/graf/dema.jpg" onclick="window.open(this.href,'_blank');return false;">{% trans %}Weather.click{% endtrans %}</a></div> 
+					<div class="mapa"><img src="http://www.meteocat.com/mediamb_xemec/servmet/previsio/graf/demap.jpg" alt="Meteocat" height="200" width="200"><br>{% trans %}Weather.text6{% endtrans %}<br><a href="http://www.meteocat.com/mediamb_xemec/servmet/previsio/graf/demap.jpg" onclick="window.open(this.href,'_blank');return false;">{% trans %}Weather.click{% endtrans %}</a></div> 
+				<div class="texto2">
+					<p>{% trans %}Weather.text7{% endtrans %}</p>
+					<div class="listadoMeteo">
+						<p><a href="http://www.meteocat.com/mediamb_xemec/servmet/index.html" onclick="window.open(this.href,'_blank');return false;"><img alt="Meteocat" src="{{ asset('img/logo_meteo.gif') }}" height="43" width="140"></a>{% trans %}Weather.text8{% endtrans %}<strong><em>{% trans %}Weather.text9{% endtrans %}</em></strong>. <br>
+			            {% trans %}Weather.text10{% endtrans %}</p>
+					</div>
+					<div class="listadoMeteo">
+						<p><a href="http://www.infomet.fcr.es/" onclick="window.open(this.href,'_blank');return false;"><img alt="Infomet" src="{{ asset('img/infomet.gif') }}" height="43" width="140"></a>{% trans %}Weather.text11{% endtrans %}<em><strong>{% trans %}Weather.text12{% endtrans %}</strong></em>. </p>
+					</div>
+					<div class="listadoMeteo">
+						<p><a href="http://www.aemet.es/es/portada" onclick="window.open(this.href,'_blank');return false;"><img alt="{% trans %}Weather.text13{% endtrans %}" src="{{ asset('img/logo_AEMET_web.gif') }}" height="43" width="236"></a>{% trans %}Weather.text8{% endtrans %}<em><strong>{% trans %}Weather.text14{% endtrans %}</strong></em>.</p>
+					</div>
+				</div>
+			</div>
+{% endblock %}

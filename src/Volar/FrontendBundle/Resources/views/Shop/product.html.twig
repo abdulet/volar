@@ -1,0 +1,115 @@
+{% extends 'FrontendBundle:Shop:adminLayout.html.twig' %}
+
+{% block body %}
+{% if message %}
+    <div class="message">
+        {{ message }}
+    </div>
+{% endif %}
+<div id="productForm">
+    {% if action == "update" %}
+        <form action="{{ path( '_editProduct', {'id': form.vars.value.id} ) }}" method="post" {{ form_enctype(form) }} novalidate>
+    {% else %}
+        <form action="{{ path( '_createProduct' ) }}" method="post" {{ form_enctype(form) }} novalidate>
+    {% endif %}
+        <div id="formErrors">
+        {{ form_errors(form) }}
+        </div>
+        <div id="formRows">
+            <table >
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["name-es"]) }}
+                    </td>
+                    <td class="widget">
+                    {{ form_widget(form["name-es"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["name-en"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["name-en"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["name-ca"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["name-ca"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["shortDescription-es"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["shortDescription-es"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["shortDescription-en"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["shortDescription-en"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["shortDescription-ca"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["shortDescription-ca"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["longDescription-es"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["longDescription-es"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["longDescription-en"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["longDescription-en"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form["longDescription-ca"]) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form["longDescription-ca"]) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        {{ form_label(form.price) }}
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form.price) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        Imágen
+                    </td>
+                    <td class="widget">
+                        {{ form_widget(form.images.0.file) }}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        {{ form_rest(form) }}
+        <input type="submit" value="Ok" />
+        <input type="button" onClick="document.location='{{ path('_adminProducts') }}';" value="Volver a productos" />
+    </form>
+</div>
+{% endblock %}

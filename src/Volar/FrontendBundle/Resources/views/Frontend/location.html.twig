@@ -1,0 +1,21 @@
+{% extends 'FrontendBundle:Frontend:layout.html.twig' %}
+
+{% block content %}
+			<div id="ubicacion">
+				<div id="map-container">
+					{{ google_map_container(map) }}
+					{{ google_map_js(map) }}
+				</div>
+				<div class="texto">
+					<p class="titulo">{% trans %}Location.tittle{% endtrans %}</p>
+					<p>{% trans %}Location.text1{% endtrans %}</p>
+					<p>{% trans %}Location.text2{% endtrans %}<a href="mailto:info@volarenparapente.com" style="text-decoration:underline;"><strong>web</strong></a>{% trans %}Location.text3{% endtrans %}<strong>+34 633 21 71 41</strong>{% trans %}Location.text4{% endtrans %}</p>
+					<p>{% trans %}Location.text5{% endtrans %}</p>
+					<ul>
+						<li><strong>Barcelona:</strong> <a href="https://maps.google.es/maps?q=berga&hl=ca&sll=42.000793,0.761005&sspn=0.01129,0.020256&t=h&hnear=Berga,+Barcelona,+Catalunya&z=14" target="blank">Berga</a></li> 
+						<li><strong>Lleida:</strong> <a href="https://maps.google.es/maps?q=Ager&hl=ca&ie=UTF8&sll=42.223941,1.324024&sspn=0.01125,0.020256&t=h&hnear=%C3%80ger,+Lleida,+Catalunya&z=15" target="blank">{% trans %}Location.text6{% endtrans %}</a>{% trans %}Location.text8{% endtrans %}<a href="https://maps.google.es/maps?q=42.222074,1.321464&hl=ca&sll=43.181147,2.175293&sspn=5.671624,10.371094&t=h&z=15&iwloc=near" target="blank">{% trans %}Location.text9{% endtrans %}</a></li>
+					</ul>
+					<p>{% trans %}Location.text7{% endtrans %}</p>
+				</div>
+			</div>
+{% endblock %}

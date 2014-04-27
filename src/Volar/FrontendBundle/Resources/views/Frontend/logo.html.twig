@@ -1,0 +1,27 @@
+{% set route_params = app.request.attributes.get('_route_params') %}
+
+{# merge the query string params if you want to keep them when switching the locale #}
+{% set route_params = route_params|merge(app.request.query.all) %}
+{# merge the additional params you want to change #}
+{% set enparams = route_params|merge({'_locale': 'en'}) %}
+{% set esparams = route_params|merge({'_locale': 'es'}) %}
+{% set caparams = route_params|merge({'_locale': 'ca'}) %}
+
+			<div id="logo">
+				<img class="left" src="{{ asset('bundles/volar/img/logo.gif') }}" alt="Logo Volarenparapente" />
+				<ul id="idiomas">
+					{% if app.request.locale == "es" %}
+						<li> ESP | </li>
+						<li><a href="{{ path(app.request.attributes.get('_route'), caparams) }}">CAT</a>  | </li>
+						<li><a href="{{ path(app.request.attributes.get('_route'), enparams) }}">ENG</a></li>
+					{% elseif app.request.locale == "en" %}
+						<li><a href="{{ path(app.request.attributes.get('_route'), esparams) }}">ESP</a>  | </li>
+						<li><a href="{{ path(app.request.attributes.get('_route'), caparams) }}">CAT</a>  | </li>
+						<li>ENG</li>
+					{% elseif app.request.locale == "ca" %}
+						<li><a href="{{ path(app.request.attributes.get('_route'), esparams) }}">ESP</a>  | </li>
+						<li>CAT | </li>
+						<li><a href="{{ path(app.request.attributes.get('_route'), enparams) }}">ENG</a></li>
+					{% endif %}
+				</ul>		
+			</div>

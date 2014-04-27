@@ -1,0 +1,9 @@
+{% extends 'FrontendBundle:Frontend:layout.html.twig' %}
+
+{% block content %}
+{% if errormsg != "" %}
+    {{ errormsg }}
+{%else%}
+    {%trans%}Products.buyOK{%endtrans%}
+{%endif%}
+{% endblock %}

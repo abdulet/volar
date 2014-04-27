@@ -1,0 +1,141 @@
+<?php
+
+namespace Volar\FrontendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Order
+ *
+ * @ORM\Table()
+ * @ORM\Entity
+ */
+class Order
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="orderNumber", type="string", length=12)
+     */
+    private $orderNumber;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="productId", type="integer")
+     */
+    private $productId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="quantity", type="integer")
+     */
+    private $quantity;
+
+     /**
+     * @var integer
+     *
+     * @ORM\Column(name="status", type="integer")
+     */
+    private $status;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="mail", type="string", length=100)
+     */
+    private $mail;
+
+    /**
+     * Set orderNumber
+     *
+     * @param string $orderNumber
+     * @return Order
+     */
+    public function setOrderNumber($orderNumber)
+    {
+        $this->orderNumber = $orderNumber;
+    
+        return $this;
+    }
+
+    /**
+     * Get orderNumber
+     *
+     * @return string 
+     */
+    public function getOrderNumber()
+    {
+        return $this->orderNumber;
+    }
+
+    /**
+     * Set productId
+     *
+     * @param integer $productId
+     * @return Order
+     */
+    public function setProductId($productId)
+    {
+        $this->productId = $productId;
+    
+        return $this;
+    }
+
+    /**
+     * Get productId
+     *
+     * @return integer 
+     */
+    public function getProductId()
+    {
+        return $this->productId;
+    }
+
+    /**
+     * Set quantity
+     *
+     * @param integer $quantity
+     * @return Order
+     */
+    public function setQuantity($quantity)
+    {
+        $this->quantity = $quantity;
+    
+        return $this;
+    }
+
+    /**
+     * Get quantity
+     *
+     * @return integer 
+     */
+    public function getQuantity()
+    {
+        return $this->quantity;
+    }
+
+    /**
+     * Set mail
+     *
+     * @param string $mail
+     * @return Order
+     */
+    public function setMail($mail)
+    {
+        $this->mail = $mail;
+    
+        return $this;
+    }
+
+    /**
+     * Get mail
+     *
+     * @return string 
+     */
+    public function getMail()
+    {
+        return $this->mail;
+    }
+}

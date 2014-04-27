@@ -1,0 +1,18 @@
+{% if app.request.locale == "en" %}
+{% set lang = "_eng" %}
+{% elseif app.request.locale == "ca" %}
+{% set lang = "_cat" %}
+{% else %}
+{% set lang = "" %}
+{% endif %}
+
+			<img src="{{ asset('bundles/volar/img/riel.jpg') }}" width="898" height="89" alt="Imagen" />
+			<img src="{{ asset('bundles/volar/img/index_r3_c1'~lang~'.png') }}" alt="Imagen" width="898" height="276" usemap="#index_r3_c1Map" id="index_r3_c1" />
+			<map name="index_r3_c1Map" id="index_r3_c1Map">
+				<area shape="rect" coords="522,172,585,188" href="disclaimer/disclaimer.html" onclick="window.open(this.href,'_blank');return false;" alt="Aviso legal" />
+				<area shape="rect" coords="636,61,717,123" href="http://www.federacioaeria.com/index.ysi" onclick="window.open(this.href,'_blank');return false;" alt="http://www.federacioaeria.com/index.ysi" />
+				<area shape="rect" coords="745,62,862,122" href="http://www16.gencat.net/esport/consell/" onclick="window.open(this.href,'_blank');return false;" alt="http://www16.gencat.net/esport/consell/" />
+				<area shape="rect" coords="369,52,534,87" href="http://www.icaro-paragliders.com/english/index_e.html" onclick="window.open(this.href,'_blank');return false;" alt="Icaro Paragliders" />
+				<area shape="rect" coords="369,95,537,132" href="http://www.icaro-paragliders.com/english/index_e.html" onclick="window.open(this.href,'_blank');return false;" alt="Icaro Paragliders" />
+				<area shape="rect" coords="33,76,223,97" href="mailto:info@volarenparapente.com" alt="Contacta con nosotros" />
+			</map>

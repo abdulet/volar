@@ -1,0 +1,255 @@
+Volar:
+    tittle:
+        contact: "Volar en parapente, contacte"
+        index: "Volar en parapente, inici"
+        location: "Volar en parapente, zones de vol"
+        school: "Volar en parapente, cursos"
+        tandem: "Volar en parapente, vols biplaça"
+        team: "Volar en parapente, qui som"
+        weather: "Volar en parapente, el temps"
+
+Contact:
+    text1: "Si vols provar l´ experiència de volar en parapent, fer un regal original o realitzar una activitat diferent amb el teu grup d'amics, no ho dubtis i contacta amb nosaltres:"
+    mail: "Email"
+    tlf: "Telèfon"
+
+Head:
+    tittle: "Escola de parapent, vols biplaça en parapent"
+    keywords: "parapent, parapents, vol parapent, vols parapent, vol biplaça, vols biplaçes, biplaça en parapent, tandem parapent, escola vol lliure, escola parapent, escola parapent Organya"
+    description: "Reserva el teu curs de parapent o vol biplaça, no oblidaràs la experiencia. Vine a volar en parapent sol o amb amics, ¡t'esperem!"
+
+Location:
+    tittle: "ON VOLEM?"
+    text1: "L'equip de Volarenparapente.com s'organitza des de la nostra pàgina web per a poder arribar enlloc. Així, el nostre avantatge és poder desplaçar-nos a qualsevol lloc de Catalunya per realitzar vols biplaça en parapent."
+    text2: "Contacta amb nosaltres des d'aquesta "
+    text3: " o truca al telèfon " 
+    text4: " i podrem concretar el lloc de vol que millor s'adapti a les vostres necessitats."
+    text5: "Aquestes són algunes de les localitzacions on acostumem a volar en parapent."
+    text6: "Àger"
+    text7: "En el mapa interactiu pots fer clic sobre les zones indicades per a conèixer la seva ubicació."
+    text8: " i "
+    text9: "Organyà"
+    text10: "Obrir a "
+
+Menu:
+    start: "Inici"
+    team: "Qui som"
+    school: "Formació"
+    tandem: "Vols biplaça"
+    location: "Ubicació"
+    weather: "El temps"
+    contact: "Contacte"
+    products: "Fes un regal"
+
+School:
+    text0: "CURS D´INICIACIÓ"
+    text1: "Seguint amb la nostra linea de qualitat i seguretat, presentem el sistema més probat i segur en la formació de pilots. La primera tasca que fem al curs d´iniciació al parapent és apendre a controlar el parapent al terra treballant en pendent escola. Un cop l´alumne és capaç d´inflar i controlar la vela a terra, comencem a realitzar els vols d´alçada amb un parapent biplaça acompanyat d´un instructor."
+    text2: "A partir del 2º vol l´alumne començarà a pilotar el parapent i a continuació començarà a realitzar els vols ell sol amb el parapent monoplaça fins un total d´entre 8 a 10 vols d´alçada. Sempre supervisat per radio amb 2 instructors tant a l´enrairament com a l´aterratge."
+    text3: "També n´hi ha classes teóriques on aprendrem metereologia, aerologia, normativa de vol aplicada al parapent, material especific..."
+    text4: "Al finalitzar el curs s´entregarà un certificat de l´escola i la Federació Aérea Catalana amb constància que l´alumne ha realizat un curs d´iniciació, imprescindible per continuar la formació i obtindre les titulacions federatives."
+    text5: "Aquest curs inclou tot el material necessari, les classes i el llibre didàctic. La durada del curs és de 4 a 6 dies."
+    text6: "CURS DE PROGRESSIÓ"
+    text7: "Aquest curs va dirigit a qui hagi finalitzat un curs d´iniciació i vulgui continuar adquirint coneixements de progressió."
+    text8: "Al curs de progressió l´alumne pren més independència als vols de descens, millorant sobretot en les fases d´enlairament, plantejament de l´aproximació i aterratge, fins arribar a ser totalment autònom en les mateixes."
+    text9: "Farem pràctiques individuals, en les que l´alumne pren el domini necessari per realitzar les maniobres bàsiques necessaries per poder realitzar vols de descens aumentant progresivament la independència de les indicacions dels instructors i pràctiques d´inflat en condicions de vent moderat."
+    text10: "Sempre supervisat per ràdio amb 2 instructors tant a l´enrairament com l´aterratge."
+    text11: "No deixarem de costat la teoria, ampliarem els coneixements teórics del curs d´iniciació i els complementarem amb el visionat de videos didàctics."
+    text12: "CURS DE PERFECCIONAMENT"
+    text13: "Aquest curs està destinat a les persones que han finalitzat els dos anteriors."
+    text14: "En aquest curs aprendrem les nocions que permeten realitzar vols aprofitant les corrents ascendents dinàmiques o de ladera i maniobres de descens elementals que permetran triar la durada del vol, instal.lar i util.lizar l´accelerador i moltes altres nocions bàsiques sobre l´evolució del pilot de parapent."
+    text15: "Millorarem i ampliarem les tècniques d´enlairament, introducció al vol de permanència, vol de ladera (dinàmica) i automatitzar tot allò après fins al moment."
+
+Tandem:
+    text1: "VOLS BIPLAÇA"
+    text2: "Els vols biplaça en parapent consisteixen en volar amb el pilot, utilitzant un arnés especial i un sistema d´anclatge. El passatger es situa a la cadira davant del pilot, gaudint de l´experiència del vol."
+    text3: "Volar és molt fàcil, qualsevol persona pot realitzar aquesta activitat a partir del 4 anys, perquè no es necessita cap experiència. El passatger només ha de fer una petita cursa al moment d´enlairament, el pilot s´encarrega de la resta."
+    text4: "Oferim diferents tipus de vol per cada tipus de persona: des de suaus baixades fins a vols en ascendència térmica amb els que guanyarem molts metres sobre el relleu. Tot amb la màxima seguretat: parapent homologat per dos persones, equip complet pel passatger i pilots titulats amb moltes hores de vol i experiència."
+    text5: "Què inclou el vol en parapent?"
+    text6: "Duració mínima, segons el vol triat."
+    text7: "Material necessari pel vol."
+    text8: "Pilot."
+    text9: "Assegurança de l´activitat."
+    text10: "Transport fins l´enlairament."
+    text11: "Serveis opcionals"
+    text12: "Fotografies en vol (15-30 fotos per 15 Euros) i grabació de vídeo (20 Euros), per la transferencia dels arxius l'usuari ha de portar una tarjeta SD totalment vuida i d'almenys 2GB"
+    text13: "PREUS VOLS BIPLAÇA"
+    text14: "Oferim tres tipus de vols biplaça: "
+    text15: "Vol biplaça curt"
+    text16: " a 400 mts. de desnivell, d´una durada de 10 min. aproximats i un preu de 65 Euros"
+    text17: "Vol biplaça llarg"
+    text18: " al que arribarem a 800 mts. de desnivell, amb una durada de 20 min. aproximats i un preu de 90 Euros"
+    text19: "Vol biplaça acrobàtic"
+    text20: " pels amants de l´adrenalina. Emociona´t amb el nostre vol acrobàtic: nota la força centrifuga de la barrena (baixada en espiral), a la que pots arribar fins a 3 G de força, experimenta la sensació d´ingravidesa al fer un Wing Over (moviment pendular lateral) amb el que et situarem per sobre del parapent. El preu d´aquesta experiència és de 160 Euros."
+    text21: "Hem de saber que la durada del temps de vol pot variar en funció de les condicions metereológiques. La durada total de l´activitat és d´aproximadament 50 minuts pel vol biplaça curt i 1,30 hores al vol biplaça llarg."
+    text22: "L´activitat pot ser aplaçada o cancel.lada a qualsevol moment si a criteri del pilot les condicions metereològiques no foren correctes pel vol al moment previst. El pagament de l´activitat no és reemborsable, en cas de no poder realitzar l´activitat per condicions al.lienes a volarenparapente.com (climatologia, disponibilitat de dates, etc.) s´acordarà una data alternativa per realitzar el vol."
+    text23: "Despegue parapent biplaça"
+    text24: "RESERVAR UN VOL BIPLAÇA"
+    text25: "Per reservar una data per la realització del vol biplaça en parapent, sol.licitem un ingrès en compte bancari de 20? per passatger en concepte de reserva, i la resta de l´import s´ha d´abonar en metàl.lic al finalitzar l´activitat."
+    text26: "REGALAR VOLS BIPLAÇA"
+    text27: "SI VOLS REGALAR UN VOL, T'OFERIM LA POSSIBILITAT D'OBTENIR UN BO PERSONALITZAT AMB UNA DURADA DE:"
+    text28: " !!!12 MESOS!!! PERQUÈ ESCOLLIR UNA DATA NO SIGUI CAP OBSTACLE PER REGALAR AQUESTA EXPERIÈNCIA INOBLIDABLE."
+    text29: "Per obtindre un bono regal és necessari el pagament de l´import total del vol triat, i que ens diguis el nom de la persona a qui li vols regalar. Un cop realitzat l´ingrès, t´enviarem el bono regal personalitzat per email en menys de 24 h. laborables per tal que el puguis imprimir o reenviar fàcilment des del teu ordinador. 	I ARA COM NOVETAT POTS REGALAR UN CAP DE SETMANA DE AVENTURA, INFORMA'T TRUCAN AL 633217141!"
+    text30: "Biplaça"
+
+Team:
+    text1: "Tècnic esportiu, pilot biplaça i monitor de parapent. Amb el seu parapent a més d´Espanya ha sobrevolat diferents països de sudamérica."
+    text2: "Tècnic esportiu, pilot biplaça i monitor de parapent. Té una dilatada experiència en vols d'alta muntanya i és un dels pocs pilots que ha volat a més de 7000 mts. d'altura."
+    text3: "Tècnic esportiu, pilot biplaça i monitor de parapent. Amb més d'una dècada volant, ha treballat com a monitor en varies escoles de parapent."
+    text4: "La més maca del grup i responsable de tota la logística, màrqueting i comunicació. "
+    text5: "Realitza totes les gestions de l'equip sense perdre el seu permanent somriure i simpatia."
+    text6: "El freakkie encarregat de donar-li forma a aquesta web. Aquest informàtic de professió duu més d'una dècada com pilot federat volant al costat d'aquest equip. "
+    text7: "Companya incansable d'aventures, viatges i experiències."
+    text8: "L'equip està format per un grup de tècnics i monitors de parapent amb mès d'una dècada d'experiència volant. Tots els pilots som tècnics d'esport de primer nivell i contem amb el reconeixement de la "
+    text9: "Federación Aérea Catalana"
+    text10: ", la "
+    text11: "Escola Catalana de l´Esport"
+    text12: " i la "
+    text13: "Generalitat"
+    text14: "Les persones que formem Volarenparapente.com compartim la passió per volar, la il·lusió de veure cada cop més gent practicant aquest esport que tant ens agrada. Us oferim diverses possiblitats per tal que, amb qualsevol d'elles, pugueu gaudir d'una experiència inolvidable."
+
+Weather:
+    text1: "Saber quin temps farà en la zona de vol és indispensable per volar en parapent. Aquí podràs conèixer la previsió meteorològica per Catalunya per a les pròximes 48h."
+    text2: "Nota: font obtinguda del "
+    text3: "Servei Meteorològic de Catalunya (SMC)"
+    text4: "Previsió per avui "
+    text5: "Previsió per a les properes 24h "
+    text6: "Previsió per a les properes 48h "
+    text7: "Si vols saber més sobre meteorologia o conèixer de quina manera influeix per a volar en parapent i en les activitats aèries en general, visita els següents enllaços:"
+    text8: "Web del "
+    text9: "Servei Meteorològic de Catalunya"
+    text10: "Serveis relacionats amb la meteorologia per a la comunitat de Catalunya, amb informació de fins a 8 dies d'antelació."
+    text11: "Serveis i continguts meteorològics del departament d'astronomia i meteorologia de l'"
+    text12: "Universitat de Barcelona"
+    text13: "Agencia Estatal de Meteorología"
+    text14: "Servei Meteorològic Nacional"
+    click: "(Clic per ampliar)"
+
+Products:
+    submit: "Realitzar la comanda"
+    badOrderNumber: "El número de comanda no es correcte. Torna a intentar-ho sisplau"
+    price: "Preu"
+    addToCart: "Afegir a la cistella"
+    back: "Tornar al llistat de productes"
+    buyOK: "Felicitat la teva compra ha finalitzat amb exit, esperem que gaudeixi molt de l'experiència"
+    buyKO: "Ho sentim molt pero ha hagut un error en tramitar la seva compra, torni a intentar-ho sisplau"
+    message:
+        productAdded: "El producte s'ha afegit a la teva cistella"
+    transfer: "Si ho prefereixes pots fer una transferència al comte: 2100 3294 262100555042. Una cop rebut el comprobant t'enviarem el bono regal en menys de 24 hores."
+    tryByTransfer: "Hem trobat un error inesperat, si us plau torna a intentar-ho. Si el problema persisteix pots intentar actualitzar el navegador a la darrera versió o fer la comanda per transferència o telèfon"
+
+User:
+    data: "Introdueix les dades de la reserva"
+    name: "Nom:"
+    surname: "Cognoms:"
+    email: "E-mail: "
+    retypeMail: "Verifica el e-mail: "
+    send: "Enviar"
+    cancel: "Cancel·lar"
+    badMail: "Les adreces de correo no coincideixen, revisalas sisplau"
+    joinDate: "Data de vol"
+    present:
+        caption: "Vull fer un regal"
+        badMail: "Les adreces de correo del destinatari del regan no coincideixen, revisalas sisplau"
+        anonymous: "Vull que la targeta regal sigui anònima"
+    mail:
+        subject: "Detalls de la seva compra a volarenparapente.com"
+        htmlBodyNext: >
+          Hola %NAME%,<br/><br/>
+          Aquestes son les dades de la seva compra:<br/>
+          Referència: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+          La reserva s'ha fet per la data %FECHA%, aquesta data pot variar per les condicions meteorològiques, per tant la data i hora et seràn confirmades per mail.<br/><br/>
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> t'agraim la teva confiança.<br/><br/>
+          Atentament<br/>
+          L'equip de L'equip de <a href="http://volarenparapente.com/">Volarenparapente.com</a>
+        htmlBody: >
+          Hola %NAME%,<br/><br/>
+          Aquestes son les dades de la seva compra:<br/>
+          Referència: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> t'agraim la teva confiança.<br/><br/>
+          Atentament<br/>
+          L'equip de L'equip de <a href="http://volarenparapente.com/">Volarenparapente.com</a>
+        
+        bodyNext: |
+          Hola %NAME%,
+          Aquestes son les dades de la seva compra:
+          Referència: %REFERENCE%
+          %TABLE%
+
+
+          
+          La reserva s'ha fet per la data %FECHA%, aquesta data pot variar per les condicions meteorològiques, per tant la data i hora et seràn confirmades per mail.
+
+          Desde Volarenparapente.com t'agraim la teva confiança.
+          Atentament
+          L'equip de Volarenparapente.com
+        
+        body: |
+          Hola %NAME%,
+          Aquestes son les dades de la seva compra:
+          Referència: %REFERENCE%
+          %TABLE%
+
+          Desde Volarenparapente.com t'agraim la teva confiança.
+          Atentament
+          L'equip de Volarenparapente.com
+        product: Producte
+        quantity: Cantitat
+        price: Preu
+Bono:
+    mail:
+        subject: "Enhorabona!!! Tens un regal amb Volarenparapente.com"
+        anonimo: 
+            html: "Algú molt especial t'ha fet un regal increible i anònim!!!<br/>Ara no et queda altra que imaginar-te qui serà ;)"
+            txt: |
+              Algú molt especial t'ha fet un regal increible i anònim!!!
+              Ara no et que altra que imaginar-te qui es ;)"
+        comprador: "%NAMEPRESENT% t'ha fet un regal increible!!!"
+        htmlBodyNext: >
+          Hola %NAME%, <br/><br/>
+          %BUYER%<br />
+          Aquestes son les dades del teu regal:<br/>
+          Referència: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+
+          La reserva s'ha fet per la data %FECHA%, aquesta data pot variar per les condicions meteorològiques, per tant la data i hora et seràn confirmades per mail.<br/><br/>
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> estem segurs de que mai oblidaràs aquest regal.<br/><br/>
+          Atentament<br/>
+          L'equip de <a href="http://volarenparapente.com/">Volarenparapente.com</a>
+        htmlBody: >
+          Hola %NAME%, <br/><br/>
+          %BUYER%<br />
+          Aquestes son les dades del teu regal:<br/>
+          Referència: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> estem segurs de que mai oblidaràs aquest regal.<br/><br/>
+          Atentament<br/>
+          L'equip de <a href="http://volarenparapente.com/">Volarenparapente.com</a>
+        
+        bodyNext: |
+          Hola %NAME%,
+          %BUYER%
+          Aquestes son les dades del teu regal:
+          Referència: %REFERENCE%
+          %TABLE%
+
+
+          La reserva s'ha fet per la data %FECHA%, aquesta data pot variar per les condicions meteorològiques, per tant la data i hora et seràn confirmades per mail.
+
+
+          Desde Volarenparapente.com estem segurs de que mai oblidaràs aquest regal
+          Atentament
+          L'equip de Volarenparapente.ccm
+        
+        body: |
+          Hola %NAME%,
+          %BUYER%
+          Aquestes son les dades del teu regal:
+          Referència: %REFERENCE%
+          %TABLE%
+
+          Desde Volarenparapente.com estem segurs de que mai oblidaràs aquest regal
+          Atentament
+          L'equip de Volarenparapente.ccm

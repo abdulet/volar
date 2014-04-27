@@ -1,0 +1,44 @@
+			<div id="menu">
+				<ul>
+					{% if page == "index" %}
+						<li class="activo">{% trans %}Menu.start{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_index') }}">{% trans %}Menu.start{% endtrans %}</a></li>
+					{% endif %}
+					{% if page == "team" %}
+						<li class="activo">{% trans %}Menu.team{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_team') }}">{% trans %}Menu.team{% endtrans %}</a></li>
+					{% endif %}
+					{% if page == "school" %}
+						<li class="activo">{% trans %}Menu.school{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_school') }}">{% trans %}Menu.school{% endtrans %}</a></li>
+					{% endif %}
+					{% if page == "tandem" %}
+						<li class="activo">{% trans %}Menu.tandem{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_tandem') }}">{% trans %}Menu.tandem{% endtrans %}</a></li>
+					{% endif %}
+                    {% if page == "products" %}
+						<li class="activo">{% trans %}Menu.products{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_listProducts') }}">{% trans %}Menu.products{% endtrans %}</a></li>
+					{% endif %}                    
+					{% if page == "location" %}
+						<li class="activo">{% trans %}Menu.location{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_location') }}">{% trans %}Menu.location{% endtrans %}</a></li>
+					{% endif %}
+					{% if page == "weather" %}
+						<li class="activo">{% trans %}Menu.weather{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_weather') }}">{% trans %}Menu.weather{% endtrans %}</a></li>
+					{% endif %}
+					{% if page == "contact" %}
+						<li class="activo">{% trans %}Menu.contact{% endtrans %}</li>
+					{% else %}
+						<li><a href="{{ path('_contact') }}">{% trans %}Menu.contact{% endtrans %}</a></li>
+					{% endif %}	
+				</ul>
+			</div>	

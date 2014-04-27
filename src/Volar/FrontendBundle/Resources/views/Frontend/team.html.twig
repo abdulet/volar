@@ -1,0 +1,37 @@
+{% extends 'FrontendBundle:Frontend:layout.html.twig' %}
+
+{% block content %}
+			<div id="equipo">
+				<div class="caja">
+					<img src="{{ asset('img/team/s_jose.jpg') }}" alt="Jose" height="157" width="143">
+					<p><span class="nombre">JOSE VEGA</span><br>{% trans %}Team.text1{% endtrans %}</p>
+				</div>
+				<div class="caja">
+					<img src="{{ asset('img/team/s_ramon.jpg') }}" alt="Ramón" height="157" width="144">
+					<p><span class="nombre">RAMÓN BADÍA</span><br>{% trans %}Team.text2{% endtrans %}</p>
+				</div>
+				<div class="caja">
+					<img src="{{ asset('img/team/JUANLU.JPG') }}" alt="Jordi" height="156" width="144">
+					<p><span class="nombre">JUANLU " PATXI"</span><br>{% trans %}Team.text3{% endtrans %}</p>
+				</div>
+				<div class="caja">
+					<img src="{{ asset('img/team/s_sus.jpg') }}" alt="Susana" height="157" width="145">
+					<p><span class="nombre">SUSANA BELTRÁN</span><br>{% trans %}Team.text4{% endtrans %}<br>
+			        	{% trans %}Team.text5{% endtrans %}</p>
+				</div>
+				<div class="caja">
+					<img src="{{ asset('img/team/s_ivan.jpg') }}" alt="Iván" height="156" width="144">
+					<p><span class="nombre">IVÁN ESQUÍROZ</span><br>{% trans %}Team.text6{% endtrans %}</p>
+				</div>
+				<div class="caja">
+					<img src="{{ asset('img/team/s_furgo.jpg') }}" alt="La furgo!" height="156" width="144">
+					<p><span class="nombre">LA FURGO</span><br>{% trans %}Team.text7{% endtrans %}</p>
+				</div>
+				<br clear="all">
+				<div id="texto">
+					<p>{% trans %}Team.text8{% endtrans %}<a href="http://www.federacioaeria.com/index.ysi" onclick="window.open(this.href,'_blank');return false;"><strong>{% trans %}Team.text9{% endtrans %}</strong></a>{% trans %}Team.text10{% endtrans %}<a href="http://www16.gencat.net/esport/formacio/index.htm">{% trans %}Team.text11{% endtrans %}</a>{% trans %}Team.text12{% endtrans %}<a href="http://www.gencat.cat/" onclick="window.open(this.href,'_blank');return false;">{% trans %}Team.text13{% endtrans %}</a>.</p>
+					<p>{% trans %}Team.text14{% endtrans %}</p>
+				</div>
+			    <img src="{{ asset('img/barra_bottom.gif') }}" alt="Image" height="20" width="898">
+			</div>
+{% endblock %}

@@ -1,0 +1,67 @@
+#Volar\FrontendBundle\Entity\Product:
+#    properties:
+#        name:
+#            - NotBlank: ~
+#- MinLength: 3
+#           - MaxLength: 100
+#        shortDescription:
+#            - NotBlank: ~
+#            - MinLength: 15
+#            - MaxLength: 150
+#        longDescription:
+#            - NotBlank: ~
+#            - MinLength: 15
+#            - MaxLength: 255
+#        price:
+#            - NotBlank: ~
+#- Type: \Money { message: "Shop.Forms.Product.priceFloat" }
+#        images:
+#            - File:
+#                maxSize: 6000000
+Volar\FrontendBundle\Entity\Order:
+    properties:
+        orderNumber:
+            - NotBlank: ~
+            - Length: 12
+            - Type:
+                type: string
+        userOrderNumber:
+            - NotBlank: ~
+            - Length: 8
+            - Type:
+                type: string
+        productId:
+            - NotBlank: ~
+            - Type:
+                type: integer
+        anonymousPresent:
+            - length: 5
+            - Type:
+                type: string
+        quantity:
+            - NotBlank: ~
+            - Type:
+                type: integer
+        joinDate:
+            - NotBlank: ~
+            - Date: ~
+        mail:
+            - NotBlank: ~
+            - Email: ~
+        name:
+            - NotBlank: ~
+            - Type:
+                type: string
+        surname:
+            - NotBlank: ~
+            - Type:
+                type: string
+        mailPresent:
+            - Type:
+                type: string
+        namePresent:
+            - Type:
+                type: string
+        surnamePresent:
+            - Type:
+                type: string

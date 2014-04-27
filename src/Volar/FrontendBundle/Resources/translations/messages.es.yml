@@ -1,0 +1,268 @@
+Volar:
+    tittle:
+        contact: "Volar en parapente, contacto"
+        index: "Volar en parapente, indice"
+        location: "Volar en parapente, zonas de vuelo"
+        school: "Volar en parapente, cursos"
+        tandem: "Volar en parapente, vuelos biplaza"
+        team: "Volar en parapente, quienes somos"
+        weather: "Volar en parapente, el tiempo"
+
+Contact:
+    text1: "Si quieres realizar un curso de parapente, un vuelo biplaza en parapente, hacer un regalo original o realizar una actividad diferente con tu grupo de amigos, no lo dudes y contacta con nosotros:"
+    mail: "Email"
+    tlf: "Teléfono"
+
+Head:
+    tittle: "Escuela de parapente, vuelos biplaza en parapente"
+    keywords: "parapente, parapentes, vuelo parapente, vuelos parapente, vuelo biplaza, vuelos biplazas, biplaza en parapente, tandem parapente, escuela vuelo libre, escuela parapente, escuela parapente Organya"
+    description: "Reserva tu curso de parapente o vuelo biplaza, no olvidarás la experiencia. Ven a volar en parapente solo o con amigos, ¡te esperamos!"
+
+Location:
+    tittle: "¿DÓNDE VOLAMOS?"
+    text1: "El equipo de Volarenparapente.com se organiza desde nuestra página web para poder llegar a todas partes. Así, nuestra ventaja es podernos desplazarnos a cualquier lugar de Cataluña para realizar vuelos biplaza en parapente."
+    text2: "Contacta con nosotros desde esta "
+    text3: " o llámanos al teléfono " 
+    text4: " y podremos concretar el lugar de vuelo que mejor se adapte a vuestras necesidades."
+    text5: "Estas son algunas de las localizaciones dónde acostumbramos a volar en parapente."
+    text6: "Àger"
+    text7: "En el mapa interactivo pudes hacer clic sobre las zonas indicadas para conocer su ubicación."
+    text8: " y "
+    text9: "Organyà"
+    text10: "Abrir en "
+
+Menu:
+    start: "Inicio"
+    team: "Quienes somos"
+    school: "Formación"
+    tandem: "Vuelos biplaza"
+    location: "Ubicación"
+    weather: "El tiempo"
+    contact: "Contacto"
+    products: "Haz un regalo"
+
+School:
+    text0: "CURSO DE INICIACIÓN"
+    text1: "Siguiendo con nuestra línea de calidad y seguridad, presentamos el sistema más probado y seguro en la formación de pilotos. Lo primero que hacemos en el curso de iniciación al parapente es aprender a controlar el parapente en el suelo trabajando en pendiente escuela. Una vez el alumno es capaz de inflar y controlarlo en tierra, comenzamos a realizar los vuelos de altura con un parapente biplaza acompañado por un instructor."
+    text2: "A partir del 2º vuelo el alumno comenzará a pilotar el parapente  y seguidamente comenzará a realizar los vuelos el solo con el parapente monoplaza hasta un total de entre 8 a 10 vuelos de altura. Siempre  supervisado por radio con  2 instructores tanto en despegue como en aterrizaje."
+    text3: "También hay clases teóricas donde aprenderemos meteorología, aerología, normativa de vuelo aplicada al parapente, material específico... "
+    text4: "Al finalizar el curso se entregará un certificado de la escuela y la federación Aérea Catalana de que el alumno ha realizado un curso de iniciación, imprescindible para seguir la formación y obtener las titulaciones federativas."
+    text5: "Este curso incluye todo el material necesario, las clases y el libro didáctico. La duración del curso es de 4 a 6 días."
+    text6: "CURSO DE PROGRESIÓN"
+    text7: "Este curso va dirigido a quien haya terminado un curso de iniciación y quiera seguir adquiriendo conocimientos de progresión."
+    text8: "En el curso de progresión el alumno adquiere más independencia en los vuelos de descenso, mejorando sobre todo en las fases de despegue, planteamiento de la aproximación y aterrizaje hasta llegar a ser totalmente autónomo en las mismas."
+    text9: "Haremos prácticas individuales, en las que el alumno adquiere el dominio necesario para realizar las maniobras básicas necesarias para poder realizar vuelos de descenso aumentando progresivamente la independencia de las indicaciones de los instructores y prácticas de inflado en condiciones de viento moderado."
+    text10: "Siempre  supervisado por radio con  2 instructores tanto en despegue como en aterrizaje."
+    text11: "No dejaremos de lado la teoría, ampliaremos los conocimientos teóricos del curso de iniciación y los complementaremos con el visionado de vídeos didácticos."
+    text12: "CURSO DE PERFECCIONAMIENTO"
+    text13: "Este curso está destinado a las personas que han finalizado los dos anteriores. "
+    text14: "En este curso aprenderemos se adquirirán las nociones que permiten realizar vuelos aprovechando las corrientes ascendentes dinámicas o de ladera y maniobras de descenso elementales que permitirán escoger la duración del vuelo, instalar y utilizar el acelerador y muchas otras cosas que son básicas en la evolución del piloto de parapente."
+    text15: "Mejoraremos y ampliaremos las técnicas de despegue, Introducción al vuelo de permanencia, vuelo de ladera (dinámica) y automatizar todo lo aprendido hasta el momento."
+
+Tandem:
+    text1: "VUELOS BIPLAZA"
+    text2: "Los vuelos biplaza en parapente consisten en volar junto con el piloto, utilizando un arnés especial y un sistema de anclaje. El pasajero se sitúa en la silla delante del piloto, disfrutando de la experiencia del vuelo."
+    text3: "Volar es muy fácil, cualquier persona puede realizar esta actividad a partir de los 4 años, ya que no se necesita ninguna experiencia. El pasajero sólo tiene que dar una corta carrera en el momento del despegue, el piloto se ocupa del resto."
+    text4: "Ofrecemos varios tipos de vuelo para cada tipo de persona: desde suaves descensos hasta vuelos en ascendencia térmica con los que ganaremos muchos metros sobre el relieve. Todo con la máxima seguridad: parapente homologado para dos personas, equipo completo para el pasajero y pilotos titulados con muchas horas de vuelo y experiencia."
+    text5: "¿Qué incluye el vuelo en parapente?"
+    text6: "Duración minima, dependiendo del vuelo elegido."
+    text7: "Material específico para el vuelo."
+    text8: "Piloto."
+    text9: "Seguro."
+    text10: "Transporte hasta el despegue* (*a consultar según la zona de despegue)"
+    text11: "Servicios opcionales"
+    text12: "Fotografías en vuelo (15-30 fotos por 15euros) y grabación de vídeo (20 euros), para la transferencia de los archivos el usuario debe traer una tarjeta SD totalmente vacía y de almenos 2GB"
+    text13: "PRECIOS VUELOS BIPLAZA"
+    text14: "Ofrecemos tres tipos de vuelos biplaza: "
+    text15: "Vuelo biplaza corto"
+    text16: " a 400 mts. de desnivel, de una duración de 10 min. aproximados y un precio de 65euros"
+    text17: "Vuelo biplaza largo"
+    text18: " en el que alcanzaremos 800 mts. de desnivel, con una duración de 20 min. aproximados y un precio de 90euros"
+    text19: "Vuelo biplaza acrobático"
+    text20: " para los amantes de la adrenalina. Emociónate con nuestro vuelo acrobático: siente la fuerza centrífuga de la barrena (bajada en espiral), en la que se pueden alcanzar hasta 3 G de fuerza, experimenta la sensación de ingravidez al realizar un Wing Over (movimiento pendular lateral) con el que te situaremos por encima del parapente. El precio de esta experiencia es de 160euros."
+    text21: "Debemos tener en cuenta que la duración del tiempo de vuelo puede variar en función de las condiciones metereológicas. La duración total de la actividad es de aproximadamente 50 minutos para el vuelo biplaza corto y 1,30 horas en el vuelo biplaza largo."
+    text22: "El horario de la actividad puede ser modificado o cancelado en cualquier momento si a criterio del piloto las condiciones meteorológicas no fueran las adecuadas para garantizar la total seguridad de el vuelo en el momento previsto. El pago de la actividad no es reembolsable, en caso de no poder realizar la actividad por condiciones meteorológicas se acordará una fecha alternativa para el servicio contratado.Reservas sujetas a disponibilidad de plazas."
+    text23: "Despegue parapente biplaza"
+    text24: "RESERVAR UN VUELO BIPLAZA"
+    text25: "Para reservar una fecha para la realización del vuelo biplaza en parapente,en el caso de vuelos largos o cortos, solicitamos un ingreso en cuenta bancaria de 20euros por pasajero y en el caso de vuelos acrobáticos serán 50euros, como concepto de paga y señal para la reserva. El resto del importe se abonará en metálico el día de la actividad."
+    text26: "REGALAR VUELOS BIPLAZA"
+    text27: "SI QUIERES REGALAR UN VUELO, TE OFRECEMOS LA POSIBILIDAD DE OBTENER UN BONO PERSONALIZADO CON UNA DURACION DE: "
+    text28: " !!! 12 MESES !!!  PARA QUE ESCOGER UNA FECHA NO SEA NINGUN OBSTACULO PARA REGALAR  ESTA EXPERIENCIA INOLVIDABLE. "
+    text29: "Para obtener un bono regalo es necesario el pago del importe total del vuelo escogido, y que nos facilites el nombre de la persona a quién lo regalas. Una vez realizado el ingreso, en cuanto nos remitas el comprobante por correo electrónico, te enviaremos el bono regalo en un plazo máximo de 24h laborables, para que puedas imprimirlo o reenviarlo cómodamente desde tu casa.	Y AHORA COMO NOVEDAD PUEDES REGALAR UN FIN DE SEMANA DE AVENTURA, INFORMATE LLAMANDO AL 633217141!"
+    text30: "Biplaza"
+
+Team:
+    text1: "Técnico deportivo, piloto biplaza y monitor de parapente. Responsable de esta aventura. Con su parapente además de España ha sobrevolado varios países de sudamérica."
+    text2: "Técnico deportivo, piloto biplaza y monitor de parapente. Tiene una dilatada experiencia en vuelos de alta montaña y es uno de los pocos pilotos que ha despegado de picos con más de 7000 mts. de altura."
+    text3: "Técnico deportivo, piloto biplaza y monitor de parapente. Lleva más de una década volando y ha trabajado en varias escuelas de parapente."
+    text4: "La más guapa del grupo y responsable de toda la logística, marketing y comunicación."
+    text5: "Realiza todas las gestiones del equipo sin perder su permanente sonrisa y simpatía."
+    text6: "El freakkie encargado de darle forma a esta web. Este informático de profesión lleva más de una década como piloto federado volando junto a este equipo."
+    text7: "Compañera incansable de aventuras, viajes y experiencias."
+    text8: "El equipo está formado por un grupo de técnicos y monitores de parapente, con una década de experiencia volando. Todos los pilotos somos técnicos de deporte de primer nivel y contamos con el reconocimiento de la "
+    text9: "Federación Aérea Catalana"
+    text10: ", la "
+    text11: "Escola Catalana de l´Esport"
+    text12: " y la "
+    text13: "Generalitat"
+    text14: "Las personas que formamos Volarenparapente.com compartimos la pasión por volar, la ilusión de ver cada vez más gente practicando este deporte que tanto nos gusta. Os ofrecemos diversas posibilidades para que, con cualquiera de ellas, disfrutéis de una experiencia inolvidable."
+
+Weather:
+    text1: "Saber qué tiempo hará en la zona de vuelo es indispensable para volar en parapente. Aquí podrás conocer la previsión meteorológica para Cataluña para las próximas 48h."
+    text2: "Nota: fuente obtenida del "
+    text3: "Servei Meteorològic de Catalunya (SMC)"
+    text4: "Previsión para hoy "
+    text5: "Previsión para las próximas 24h"
+    text6: "Previsión para las próximas 48h"
+    text7: "Si quieres saber más sobre meteorología o conocer de qué manera influye para volar en parapente y en las actividades aéreas en general, visita los siguientes enlaces:"
+    text8: "Web del "
+    text9: "Servei Meteorològic de Catalunya"
+    text10: "Servicios relacionados con la meteorología para la comunidad de Cataluña, con partes de hasta 8 días de antelación. "
+    text11: "Servicios y contenidos meteorológicos del departamento de astronomía y meteorología de la "
+    text12: "Universidad de Barcelona"
+    text13: "Agencia Estatal de Meteorología"
+    text14: "Servicio Meteorológico Nacional"
+    click: "(Clic para ampliar)"
+
+Shop:
+    Forms:
+        Product:
+            nameES: "Nombre en español"
+            nameEN: "Nombre en inglés"
+            nameCA: "Nombre en catalán"
+            shortDescriptionES: "Descripción corta en español"
+            longDescriptionES: "Descripción larga en español"
+            shortDescriptionEN: "Descripción corta en inglés"
+            longDescriptionEN: "Descripción larga en inglés"
+            shortDescriptionCA: "Descripción corta en catalán"
+            longDescriptionCA: "Descripción larga en catalán"
+            price: "Precio"
+            priceFloat: "El precio tiene que ser un número con decimales separados por una coma."
+            image: "Imagen"
+            added: "El producto se ha añadido"
+
+Products:
+    submit: "Realizar el pedido"
+    badOrderNumber: "El número de pedido no es correcto, vuelve a intentarlo por favor"
+    price: "Precio"
+    addToCart: "Añadir al carrito"
+    back: "Volver al listado de productos"
+    buyOK: "Felicidades su compra ha finalitzado con éxito, esperamos que disfrute mucho de la experiéncia"
+    buyKO: "Lo sentimos pero ha habido un error al tramitar su pedido, vuelva a intentarlo por favor"
+    message:
+        productAdded: "El producto se ha agregado a tu carrito"
+    transfer: "Si lo prefieres puedes hacer una transferéncia a la cuenta: 2100 3294 262100555042. Una vez recibido el comprobante te enviaremos el bono regalo en menos de 24 horas."
+    tryByTransfer: "Hemos encontrado un error inesperado, por favor vuelve a intentarlo. Si el problema persiste puedes intentar actualizar el navegador a la última versión o hacer el pedido por transferencia o teléfono"
+
+User:
+    data: "Introduce los datos del vuelo"
+    name: "Nombre:"
+    surname: "Apellidos:"
+    email: "E-mail: "
+    retypeMail: "Verifica el e-mail: "
+    send: "Enviar"
+    cancel: "Cancelar"
+    badMail: "Las direcciones de correo no coinciden"
+    joinDate: "Fecha del vuelo"
+    present:
+        caption: "Si quieres enviar una targeta regalo, introduce los datos del destinatario"
+        badMail: "Las direcciones de correo del destinatario del regalo no coinciden"
+        anonymous: "Quiero que la targeta regalo sea anónima"
+    mail:
+        subject: "Detalles de su compra en volarenparapente.com"
+        htmlBodyNext: >
+          Hola %NAME%,<br/><br/>
+          Estos son los detalles de su compra:<br/>
+          Referéncia: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+          La reserva se ha hecho para la fecha %FECHA%, esta fecha puede variar por las condiciones meteorológicas, por tanto la fecha y hora te serán confirmadas por mail.<br/><br/>
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> le agradecemos su confianza<br/><br/>
+          Atentamente<br/>
+          El equipo de <a href="http://volarenparapente.com/">volarenparapente.com</a>
+        htmlBody: >
+          Hola %NAME%,<br/><br/>
+          Estos son los detalles de su compra:<br/>
+          Referéncia: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> le agradecemos su confianza<br/><br/>
+          Atentamente<br/>
+          El equipo de <a href="http://volarenparapente.com/">volarenparapente.com</a>
+        bodyNext: |
+          Hola %NAME%,
+          Estos son los detalles de su compra:
+          Referéncia: %REFERENCE%
+          %TABLE%
+          La reserva se ha realizado para la fecha %FECHA%, esta fecha puede variar por les condicions meteorológicas, por tanto la fecha y hora te serán confirmadas por mail.
+
+          Desde volarenparapente.com le agradecemos su confianza
+          Atentamente
+          El equipo de volarenparapente.com
+        body: |
+          Hola %NAME%,
+          Estos son los detalles de su compra:
+          Referéncia: %REFERENCE%
+          %TABLE%
+
+          Desde volarenparapente.com le agradecemos su confianza
+          Atentamente
+          El equipo de volarenparapente.com
+        
+        product: Producto
+        quantity: Cantidad
+        price: Precio
+Bono:
+    mail:
+        subject: "Enhorabuena!!! Tienes un regalo con Volarenparapente.com"
+        anonimo: 
+            html: "Alguien muy especial te ha hecho un regalo increible y anónimo!!!<br/>Ahora no te queda otra que imaginarte quién será ;)"
+            txt: |
+              Alguien muy especial te ha hecho un regalo increible i anónimo!!!
+              Ahora no te queda otra que imaginarte quién ha sido ;)"
+        comprador: "%NAMEPRESENT% te ha hecho un regalo increíble!!!"
+        htmlBodyNext: >
+          Hola %NAME%, <br/><br/>
+          %BUYER%<br />
+          Estos son los datos de tu regalo:<br/>
+          Referéncia: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+
+          La reserva se ha hecho para la fecha %FECHA%, esta fecha puede variar por las condiciones meteorológicas, por tanto la fecha y hora te serán confirmadas por mail.<br/><br/>
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> estamos seguros de que nunca olvidarás este regalo.<br/><br/>
+          Atentamente<br/>
+          El equipo de <a href="http://volarenparapente.com/">Volarenparapente.com</a>
+        htmlBody: >
+          Hola %NAME%, <br/><br/>
+          %BUYER%<br />
+          Estos son los datos de tu regalo:<br/>
+          Referéncia: %REFERENCE%<br/><br/>
+          %TABLE%<br/><br/>
+
+          Desde <a href="http://volarenparapente.com/">volarenparapente.com</a> estamos seguros de que nunca olvidarás este regalo.<br/><br/>
+          Atentamente<br/>
+          El equipo de <a href="http://volarenparapente.com/">Volarenparapente.com</a>
+        
+        bodyNext: |
+          Hola %NAME%,
+          %BUYER%
+          Estos son los datos de tu regalo:
+          Referència: %REFERENCE%
+          %TABLE%
+
+          La reserva se ha hecho para la fecha %FECHA%, esta fecha puede variar por las condiciones meteorológicas, por tanto la fecha y hora te serán confirmadas por mail.
+
+          Desde Volarenparapente.com estem segurs de que mai oblidaràs aquest regal
+            
+          Atentamente
+          El equipo de  Volarenparapente.com
+        body: |
+          Hola %NAME%,
+          %BUYER%
+          Estos son los datos de tu regalo:
+          Referència: %REFERENCE%
+          %TABLE%
+
+          Desde Volarenparapente.com estamos seguros de que nunca olvidarás este regalo.
+            
+          Atentamente
+          El equipo de Volarenparapente.com
+        
