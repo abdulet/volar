@@ -754,4 +754,12 @@ class ProductController extends Controller
             "page"=>"products",
         ));
     }
+
+    public function listOrdersAction(Request $request){
+		$em = $this->getDoctrine()->getManager();
+        $orders = $em->getRepository('FrontendBundle:Orders')->findAll();
+		return $this->render('FrontendBundle:Shop:listOrders.html.twig', array(
+            "orders" => $orders,
+        ));
+    }
 }
